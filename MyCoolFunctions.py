@@ -81,6 +81,6 @@ def KW_paste(file1, file2, outfile):
         elif len(f1_lines) < len(f2_lines):
             for line2 in f2_lines[common:]:
                 f.write('\t' + line2)
-   
+
 #==============================================================================
 
