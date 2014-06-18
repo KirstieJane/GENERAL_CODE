@@ -36,7 +36,8 @@ def KW_round(data, n):
     This function takes a numpy array and rounds such that the smallest
         value has n significant figures
     """
-    minimum = data.min()
+    print data
+    minimum = data[data!=0].min()
     counter = 0
     if minimum == 0:
         counter = 0
